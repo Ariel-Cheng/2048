@@ -1,6 +1,10 @@
 /**
  * Created by Aqua on 2016/1/21.
  */
+/**
+ *
+ * @returns {Array|*}
+ */
 function init() {
     var i = 0;
     var j = 0;
