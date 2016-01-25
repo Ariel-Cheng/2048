@@ -1,0 +1,175 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #faf8ef;
+    color: #776e65;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px; }
+
+/*body {*/
+    /*margin: 80px 0; }*/
+
+#title{
+    position:relative;
+}
+
+#logo1 {
+    float:left;
+    width:45%;
+    margin-right: 5%;
+    font-family: "Microsoft YaHei";
+    font-size: 80px;
+    text-align: right;
+}
+
+
+div#highScore {
+    margin-left:50%;
+    position: relative;
+    bottom: -30px;
+    font-family: "Microsoft Yahei";
+    font-size: 30px;
+}
+
+#logo2{
+    bottom: 0px;
+    width: 40%;
+    margin-right: 10%;
+    text-align: right;
+    font-family: "Microsoft YaHei";
+    font-style: italic;
+}
+
+
+#score {
+    position: relative;
+    bottom: 35px;
+    margin-left: 50%;
+    font-family: "Microsoft Yahei";
+    font-size: 30px;
+}
+
+#container{
+    position: absolute;
+    z-index: -1;
+}
+.grid-row{
+
+    display:block;
+    /*clear:both;*/
+    width:545px;
+    height:136.25px;
+    margin:0 65%;
+    background: navajowhite;
+}
+.grid-cell{
+    content: " ";
+    float:left;
+    width: 106.25px;
+    height: 106.25px;
+    text-align: center;
+    background:lightskyblue;
+    margin:15px;
+}
+.mode2{
+    font-size: 90px;
+    float: left;
+    width: 106.25px;
+    height: 106.25px;
+    background:lavender;
+    text-align: center;
+    margin: 0;
+}
+.mode4{
+    float: left;
+    font-size: 90px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #FAEBD7;
+    text-align: center;
+    margin:0;
+}
+.mode8{
+    float: left;
+    font-size: 90px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #EED5D2;
+    text-align: center;
+    margin:0;
+}
+.mode16{
+    float: left;
+    font-size: 80px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #FFE4E1;
+    text-align: center;
+    margin:0;
+}
+.mode32{
+    float: left;
+    font-size: 80px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #EEB4B4;
+    text-align: center;
+    margin:0;
+}
+.mode64{
+    float: left;
+    font-size: 80px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #FFC0CB;
+    text-align: center;
+    margin:0;
+}
+.mode128{
+    float: left;
+    font-size: 65px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #FFAEB9;
+    text-align: center;
+    margin:0;
+}
+.mode256{
+    float: left;
+    font-size: 45px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #FFAEB9;
+    text-align: center;
+    margin:0;
+}
+.mode512{
+    float: left;
+    font-size: 45px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #F08080;
+    text-align: center;
+    margin:0;
+}
+.mode1024{
+    float: left;
+    font-size: 35px;
+    width: 106.25px;
+    height: 106.25px;
+    background:#FA8072;
+    text-align: center;
+    margin:0;
+}
+.mode2048{
+    float: left;
+    font-size: 35px;
+    width: 106.25px;
+    height: 106.25px;
+    background: #EE8262;
+    text-align: center;
+    margin:0;
+}
+
+
